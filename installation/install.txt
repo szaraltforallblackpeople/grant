@@ -1,0 +1,15 @@
+-- sql 
+CREATE TABLE IF NOT EXISTS Zasilek (
+    Identifier VARCHAR(50) NOT NULL,
+    Czas INT NOT NULL,
+    PRIMARY KEY (Identifier)
+);
+
+
+-- Script is created for DOJ job 
+
+
+dependency 
+
+- ox_target ( qtarget ) 
+- ESX 
