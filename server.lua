@@ -90,7 +90,7 @@ function removeGrant(playerId)
                 end
             end)
         else
-            xPlayer.showNotification("Nie znaleziono zasiłku dla tego gracza")
+            xPlayer.showNotification("Ten gracz nie ma aktywnego zasiłku")
         end
     end)
 end
@@ -110,7 +110,7 @@ RegisterServerEvent("kriss:nadajZasilek", function(id)
     end
 end)
 
-RegisterServerEvent("kriss:odbierzZasilek", function()
-    claimGrant(source)
-end)
+-- RegisterServerEvent("kriss:odbierzZasilek", function()
+   -- claimGrant(source)
+-- end)
 
