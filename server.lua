@@ -110,7 +110,7 @@ RegisterServerEvent("kriss:nadajZasilek", function(id)
     end
 end)
 
--- RegisterServerEvent("kriss:odbierzZasilek", function()
-   -- claimGrant(source)
--- end)
+RegisterServerEvent("kriss:odbierzZasilek", function()
+claimGrant(source)
+end)
 
